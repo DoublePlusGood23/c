@@ -4,4 +4,4 @@ CFLAGS=-g -Wall -O3
 LDFLAGS=-lgsl -lgslcblas -lm
 CC=cc
 erf:
-		$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $@.c 
+		$(CC) $(CFLAGS) $(LDFLAGS) -o $@.bin $@.c 
